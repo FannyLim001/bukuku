@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #485575;
+}
+
+.navbar-brand {
+    color: #a3d5f4;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color: #85acc4;
+}
+
+span {
+    color: #c592dc;
+}
+
+.nav-link {
+    color: #a3d5f4;
+}
+
+.nav-link:hover {
+    color: #85acc4;
+}
+
+.header-title {
+    color: #a3d5f4;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.header-desc {
+    color: #a3d5f4;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+.search-btn {
+    margin-left: 70px;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #a3d5f4;
+}
+
+.search-btn a {
+    text-decoration: none;
+    color: #485575;
+}
+
+.catalog-title {
+    color: #a3d5f4;
+}
+
+.card {
+    background-color: #a3d5f4;
+    color: #485575;
+}
+
+.book-cover {
+    width: 500px;
+    /* Adjust the width as needed */
+    height: 400px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+    /* This ensures that the image maintains its aspect ratio and covers the entire area */
+}
+
+.book-cover-v2 {
+    width: 400px;
+    /* Adjust the width as needed */
+    height: 500px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+    /* This ensures that the image maintains its aspect ratio and covers the entire area */
+}
+
+.book-cover-v3 {
+    width: 200px;
+    /* Adjust the width as needed */
+    height: 300px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+    /* This ensures that the image maintains its aspect ratio and covers the entire area */
+}
+
+.buy-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: #485575;
+}
+
+.buy-btn a {
+    text-decoration: none;
+    color: #a3d5f4;
+}
+
+.buy-btn-v2 {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: #a3d5f4;
+    color: #485575;
+}
+
+.book-detail {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.book-title {
+    color: #a3d5f4;
+}
+
+.book-desc {
+    color: #a3d5f4;
+}
+
+.book-details {
+    color: #a3d5f4;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.order-amount {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #485575;
+    color: #485575;
+    border-radius: 10px;
+}
+
+.order-amount-v2 {
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #a3d5f4;
+    color: #a3d5f4;
+    border-radius: 10px;
+}
+
+.edit-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: #485575;
+    color: #a3d5f4;
+}
+
+.delete-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: #c592dc;
+    color: #485575;
+}
+
+.modal-content {
+    background-color: #a3d5f4;
+    color: #485575;
+}
+
+.modal-header {
+    border-bottom: 1px solid #485575;
+}
+
+.modal-footer {
+    border-top: 1px solid #485575;
+}
+
+footer div {
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+    background-color: #a3d5f4;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .header-title {
+        font-size: 55px;
+    }
+
+    .header-desc {
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header-title {
+        font-size: 60px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header-title {
+        font-size: 70px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
